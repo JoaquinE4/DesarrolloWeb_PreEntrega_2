@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #552b47;
+    background-color: #bbd4caec;
 }
 
 .navbar {
@@ -21,17 +21,17 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #FFA1F5;
+    background-color: rgb(23, 117, 43);
 
 }
 
 .navbar a {
-    color: #e72aa8;
+    color: wheat;
 }
 
 .navto {
-    background-color: #000000;
-    color: #ff0000;
+    background-color: rgb(23, 117, 43);
+    color: wheat;
 }
 
 .collapse {
@@ -42,7 +42,7 @@ body {
 .collapse a {
     padding: 5px;
     display: inline-block;
-    color: #e72aa8;
+    color: wheat;
 
     font-size: 15px;
 
@@ -52,10 +52,140 @@ body {
 
 .collapse a:hover {
 
-    box-shadow: inset 0px 0px 15px 3px #db88c0;
-    border-radius: 40px;
-    color: #e72aa8;
+    color: wheat;
     font-size: 14px;
 
 }
 
+.baner {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(23, 117, 43);
+    background-image: url(../img/fuerzafege2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(23, 117, 43);
+}
+
+
+
+.titlenos {
+
+
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.parrafonos {
+
+
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-left: 115px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 90px;
+
+}
+
+.btn a {
+    color: antiquewhite;
+}
+
+.slide {
+    margin-top: 50px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #308542;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: 5px;
+}
+
+.footer h3 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.what {
+    height: 40px;
+    width: 40px;
+    background-color: seagreen;
+    color: aliceblue;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.what a {
+    color: white;
+}
+
+
+@media screen and (min-width:480px) and (max-width:763px) {
+    .titlenos {
+        font-size: 50px;
+    }
+
+    .btn {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width:764px) and (max-width:1023px) {
+    .nos {
+        height: 390px;
+    }
+
+    .titlenos {
+        font-size: 60px;
+    }
+
+    .btn {
+        margin-left: 340px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .nos {
+        height: 390px;
+    }
+
+    .titlenos {
+        font-size: 70px;
+    }
+
+    .btn {
+        margin-left: 470px;
+    }
+}
