@@ -109,6 +109,30 @@ body {
     margin-top: 50px;
 }
 
+.textproduct{
+    text-align: center;
+    background-color: #308542;
+}
+
+.prod {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.titleprod {
+    margin-top: 20PX;
+    text-align: center;
+}
+
+.prodd {
+    gap: 190px;
+    margin-bottom: 30px;
+}
+
+
 
 .footer {
     width: 100%;
