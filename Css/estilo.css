@@ -72,11 +72,17 @@ body {
     align-items: center;
     justify-content: center;
     color: wheat;
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: rgb(23, 117, 43);
 }
 
+.rownos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .titlenos {
@@ -84,7 +90,7 @@ body {
     font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 50px;
+
 }
 
 .parrafonos {
@@ -94,28 +100,31 @@ body {
 }
 
 .btn {
-    margin-left: 115px;
     margin-bottom: 10px;
     height: 40px;
     width: 90px;
 
+
 }
 
 .btn a {
+    align-items: center;
+    justify-content: center;
     color: antiquewhite;
+
 }
 
 .slide {
     margin-top: 50px;
 }
 
-.textproduct{
+.textproduct {
     text-align: center;
     background-color: #308542;
 }
 
 .prod {
-    display:grid;
+    display: grid;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
@@ -131,6 +140,17 @@ body {
     gap: 190px;
     justify-content: center;
 }
+
+.form{
+    height:300px;
+    
+    display: grid;
+    gap:20px;
+    padding: 50px;
+    margin-bottom: 30px;
+    
+}
+
 
 
 
@@ -177,59 +197,86 @@ body {
 
 
 @media screen and (min-width:480px) and (max-width:763px) {
-    .titlenos, .titlenos {
+
+    .titlenos,
+    .titlenos {
         font-size: 50px;
     }
 
-    .parrafonos{
+    .parrafonos {
         text-align: center;
     }
 
-    .btn {
-        margin-left: 200px;
+
+
+    .rownos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
-    .prodd{
-        gap:100px;
-       justify-content: center;
+
+    .prodd {
+        gap: 100px;
+        justify-content: center;
     }
 
 }
 
 @media screen and (min-width:764px) and (max-width:1023px) {
-    .nos, .nos {
+
+    .nos,
+    .nos {
         height: 390px;
     }
 
-    .parrafonos{
+    .rownos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .parrafonos {
         text-align: center;
     }
 
-    .titlenos, .titlenos {
+    .titlenos,
+    .titlenos {
         font-size: 60px;
     }
 
-    .btn {
-        margin-left: 340px;
-    }
+
 
 
 }
 
 @media screen and (min-width:1024px) {
-    .nos, .nos {
+
+    .nos,
+    .nos {
         height: 390px;
     }
 
-    .parrafonos{
+    .parrafonos {
         text-align: center;
     }
 
-    .titlenos, .titlenos {
+
+    .titlenos,
+    .titlenos {
         font-size: 70px;
     }
 
-    .btn {
-        margin-left: 470px;
+    .rownos {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
+
+
+
 }
