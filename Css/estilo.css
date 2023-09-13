@@ -141,14 +141,14 @@ body {
     justify-content: center;
 }
 
-.form{
-    height:300px;
-    
+.form {
+    height: 300px;
+
     display: grid;
-    gap:20px;
+    gap: 20px;
     padding: 50px;
     margin-bottom: 30px;
-    
+
 }
 
 
