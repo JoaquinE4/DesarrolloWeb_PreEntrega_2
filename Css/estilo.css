@@ -81,7 +81,7 @@ body {
 
 .titlenos {
 
-
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 50px;
@@ -129,7 +129,7 @@ body {
 
 .prodd {
     gap: 190px;
-    margin-bottom: 30px;
+    justify-content: center;
 }
 
 
@@ -177,35 +177,55 @@ body {
 
 
 @media screen and (min-width:480px) and (max-width:763px) {
-    .titlenos {
+    .titlenos, .titlenos {
         font-size: 50px;
+    }
+
+    .parrafonos{
+        text-align: center;
     }
 
     .btn {
         margin-left: 200px;
     }
+
+    .prodd{
+        gap:100px;
+       justify-content: center;
+    }
+
 }
 
 @media screen and (min-width:764px) and (max-width:1023px) {
-    .nos {
+    .nos, .nos {
         height: 390px;
     }
 
-    .titlenos {
+    .parrafonos{
+        text-align: center;
+    }
+
+    .titlenos, .titlenos {
         font-size: 60px;
     }
 
     .btn {
         margin-left: 340px;
     }
+
+
 }
 
 @media screen and (min-width:1024px) {
-    .nos {
+    .nos, .nos {
         height: 390px;
     }
 
-    .titlenos {
+    .parrafonos{
+        text-align: center;
+    }
+
+    .titlenos, .titlenos {
         font-size: 70px;
     }
 
